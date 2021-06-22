@@ -3,6 +3,6 @@
 # Place your variants in /etc/icewm or in $HOME/.icewm since
 # modifications to this file will be overwritten when you reinstall icewm.
 #
-prog "Terminal emulator" lxterminal lxterminal
-prog "Web browser" web-browser seamonkey
+#prog "Terminal emulator" lxterminal lxterminal
+#prog "Web browser" web-browser seamonkey
 
