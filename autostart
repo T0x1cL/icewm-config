@@ -1,0 +1,14 @@
+#!/bin/sh
+
+# start network manager
+    sleep 1 &&
+    nm-applet &
+
+
+# start redshift
+    redshift &
+
+# allow notifications
+    /usr/lib/notification-daemon-1.0/notification-daemon &
+
+

@@ -9,6 +9,7 @@
 # XF86. Valid modifiers are Alt, Ctrl, Shift, Meta, Super and Hyper.
 #
 key "Ctrl+t"            lxterminal
+key "Ctrl+Alt+x"	xkill
 
 key "Super+KP_Subtract"     amixer sset Master 5%-
 key "Super+KP_Add"          amixer sset Master 5%+

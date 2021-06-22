@@ -5,10 +5,25 @@
 #
 prog "lxterminal" lxterminal lxterminal
 prog "Seamonkey" seamonkey seamonkey
-prog "Engrampa" engrampa engrampa
-prog "PCManFM" ""  pcmanfm
 prog "Connection Editor" "" nm-connection-editor
 prog "Galculator" galculator galculator
-includeprog icewm-menu-fdo --sep-before --no-sep-others
-menufile Programs folder programs
-menufile Tool_bar folder toolbar
+prog htop htop lxterminal -e htop
+separator
+menu "Docs" "" {
+	prog Leafpad leafpad leafpad
+	prog ePDFView epdfview epdfview
+}
+separator
+menu "Files" "" {
+	prog PCManFM "" pcmanfm
+	prog Engrampa engrampa engrampa
+}
+separator
+menu "Multimedia" "" {
+	prog Pavucontrol multimedia-volume-control pavucontrol
+	prog VLC vlc vlc
+}
+separator
+#includeprog icewm-menu-fdo --sep-before --no-sep-others
+#menufile Programs folder programs
+#menufile Tool_bar folder toolbar
