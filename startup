@@ -1,0 +1,11 @@
+#!/bin/sh
+
+# start network manager
+	sleep 1 &&
+	nm-applet &
+
+# start redshift
+	redshift &
+
+# start compositor
+	xcompmgr &

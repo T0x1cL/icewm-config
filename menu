@@ -1,0 +1,14 @@
+# This is an example for icewm 2.4.0 menu definition file.
+# It will be installed as /usr/share/icewm/menu.
+# Place your variants in /etc/icewm or in $HOME/.icewm since
+# modifications to this file will be overwritten when you reinstall icewm.
+#
+prog "lxterminal" lxterminal lxterminal
+prog "Seamonkey" seamonkey seamonkey
+prog "Engrampa" engrampa engrampa
+prog "PCManFM" ""  pcmanfm
+prog "Connection Editor" "" nm-connection-editor
+prog "Galculator" galculator galculator
+includeprog icewm-menu-fdo --sep-before --no-sep-others
+menufile Programs folder programs
+menufile Tool_bar folder toolbar
